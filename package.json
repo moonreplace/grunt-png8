@@ -1,7 +1,7 @@
 {
   "name": "grunt-png8",
   "description": "Convert png32, png24 to png8, and reserve all alpha transparent",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/moonreplace/grunt-png8",
   "author": {
     "name": "Chris Dai",
@@ -39,6 +39,7 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "pngquant-bin": "~0.1.6"
+    "pngquant-bin": "~0.1.6",
+    "waitpid": "^0.1.1"
   }
 }

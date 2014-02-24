@@ -26,13 +26,14 @@ module.exports = function(grunt) {
     // Before generating any new files, remove any previously-created files.
     clean: {
       tests: ['tmp'],
+      build: ['build']
     },
 
     // Configuration to be run (and then tested).
     png8: {
       default_options: {
         options: {
-			'ext': '.test.png'
+			'ext': '-test.png'
         },
         files: {
           'build': ['src/*.png']
