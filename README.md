@@ -14,7 +14,7 @@ npm install grunt-png8 --save-dev
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('png8');
+grunt.loadNpmTasks('grunt-png8');
 ```
 
 ## The "png8" task
@@ -41,6 +41,7 @@ grunt.initConfig({
 A string value that is used to as the output extend name.
 
 ### Usage Examples
+```js
 grunt.initConfig({
   png8: {
     options: {
@@ -51,7 +52,7 @@ grunt.initConfig({
     },
   },
 });
-
+```
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
